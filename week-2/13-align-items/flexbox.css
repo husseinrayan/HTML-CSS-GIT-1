@@ -8,6 +8,8 @@
 
 .countries--second {
   align-items: flex-end;
+
+  flex-direction: row-reverse;
 }
 
 .countries--third {
