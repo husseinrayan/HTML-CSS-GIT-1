@@ -1,1 +1,11 @@
 /* Add your CSS code below */
+div[id="first-message"] {
+  background-color: red;
+}
+
+article:nth-child(2) {
+  background-color: cadetblue;
+}
+div[class="message--latest"] {
+  background-color: yellow;
+}
