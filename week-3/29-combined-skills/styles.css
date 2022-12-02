@@ -1,1 +1,50 @@
 /* Add your own CSS code below */
+.love {
+  color: #c85308;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 3pc;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav__list-item {
+    margin: 1pc;
+  }
+
+  .views {
+    display: flex;
+    align-items: center;
+  }
+
+  .view-list__item {
+    margin: 1pc;
+  }
+
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
+
+.main-article {
+  max-width: 50em;
+  line-height: 2pc;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
